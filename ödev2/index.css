@@ -1,0 +1,125 @@
+#giris{
+    font-size: 50px;
+    color:red;
+    font-style: italic;
+    
+}
+ /*Banner Kısmı*/
+#sayfa{
+    width: 900px;
+    min-height: 600px;
+    border-style:none;
+    border-width: 1px;
+    margin: auto;
+}
+
+
+#banner{
+    width: 900px;
+    height: 350px;
+    border-style:none;
+}
+
+#resmim{
+    height:348px;
+    width: 898px;
+    top:1px; 
+    bottom:1px;
+    right:1px;
+    left: 1px;  
+}
+     
+.resim{
+   padding-left: 0px;
+   padding-right: 0px;
+   width: 223px;
+} 
+ 
+#yazi{
+    font-style: italic;
+    font-size:25px;
+}
+
+/*Anamenü Kısmı*/
+#anamenu{
+    width: 898px;
+    height:150px;
+    border-style:none;
+    border-width: 1px;
+    background-color:chocolate;
+} 
+
+#anamenu ul{
+    list-style-type:none;
+}
+
+#anamenu ul li{
+    width: 160px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 12px;
+    border-color:midnightblue;
+    background-color: white;
+    position: relative;
+    float: left;
+    margin-left: 8px;
+    padding: 12px;
+    top: 35px;
+    text-align: center;
+}
+  
+#anamenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#anamenu ul a :link{
+    color:blue;
+}
+
+#anamenu ul a:visited{
+    color:gray;
+}
+
+#anamenu ul a:hover{
+    color:skyblue;
+    text-decoration:underline;
+}
+
+#anamenu ul a:active{
+    color:midnightblue;
+}
+
+
+/*İçerik ve yan menü*/
+#icerik{
+    width: 698px;
+    min-height: 300px;
+    border-style: none;
+    border-width: 1px;
+    background-color:white;
+    float:left;
+}
+
+#yanmenu{
+    width: 200px;
+    height: 1100px;
+    border-style:none;
+    border-width: 1px;
+    background-color:cadetblue;
+    float: left;
+}
+
+.h1{
+    font-size:35px;
+    font-style: italic;
+    color:brown
+    
+}
+
+.menuyaz{
+    font-size: 15px;
+    font-style: italic;
+}
